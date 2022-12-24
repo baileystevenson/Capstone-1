@@ -183,7 +183,7 @@ header > div > form {
 
 button.remove {
     height: 2vh;
-    width: 3vw;
+    width: 6vw;
     
 }
 .addbtn:hover {
@@ -260,6 +260,6 @@ li{
     overflow-wrap: break-word;
 }
 .remove{
-    font-size: 8px;
+    font-size: 12px;
 
 }

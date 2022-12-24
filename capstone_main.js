@@ -41,7 +41,7 @@ function addWant(text) {
   buttons.classList.add('buttons')
   let remove = document.createElement('button')
   remove.classList.add('remove')
-  remove.textContent = "Delete"
+  remove.textContent = "Remove"
   remove.addEventListener('click', removeItem)
   buttons.appendChild(remove)
   item.appendChild(buttons)
@@ -85,6 +85,7 @@ function addInspired(text) {
   buttons.classList.add('buttons')
   let remove = document.createElement('button') 
   remove.classList.add('remove')
+  remove.textContent = "Remove"
   remove.addEventListener('click', removeItem)
   buttons.appendChild(remove)
   item1.appendChild(buttons)
@@ -127,6 +128,7 @@ function addGoal(text) {
   buttons.classList.add('buttons')
   let remove = document.createElement('button')
   remove.classList.add('remove')
+  remove.textContent = "Remove"
   remove.addEventListener('click', removeItem)
   buttons.appendChild(remove)
   item2.appendChild(buttons)
@@ -169,6 +171,7 @@ function addDream(text) {
   buttons.classList.add('buttons')
   let remove = document.createElement('button')
   remove.classList.add('remove')
+  remove.textContent = "Remove"
   remove.addEventListener('click', removeItem)
   buttons.appendChild(remove)
   item3.appendChild(buttons)
